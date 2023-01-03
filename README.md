@@ -22,4 +22,4 @@
 ## Схема подключения
 ![alt text](https://github.com/octaprog7/pcf8574/blob/master/conn8574.png)
 ## Видео
-![alt text](https://youtu.be/uTvKOjCbi6w)
+![alt text](https://youtu.be/61_FNGSfh-4)
