@@ -34,7 +34,6 @@ if __name__ == '__main__':
             index = 0
         print(index, hex(values[index]))
         
-
     # for value in io_expander:
     #    print(f"Read value: 0x{value:x}\t0b{value:8b}")
     #    time.sleep_ms(50)
