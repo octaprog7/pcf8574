@@ -1,20 +1,25 @@
 # PCF8574(A)
-MicroPython module for work with PCF8574(A) I2C 8-bit I/O expander from NXP.
+Модуль MicroPython для работы с 8-битным расширителем ввода/вывода PCF8574(A) I2C от NXP.
 
-Just connect your PCF8574(A) board to Arduino, ESP or any other board with MicroPython firmware.
+Просто подключите плату PCF8574(A) к Arduino, ESP или любой другой плате с прошивкой MicroPython.
 
-Supply voltage PCF8574(A) 3.3-5.0 Volts!
+Напряжение питания PCF8574(A) 3,3-5,0 Вольт!
 1. VCC
 2. GND
 3. SDA
 4. SCL
+5. ~INT (подключение необязательно)
 
-Upload MicroPython firmware to the NANO(ESP, etc) board, and then two files: main.py, pcf8574mod.py and sensor_pack folder. 
-Then open main.py in your IDE and run it.
+Загрузите прошивку MicroPython в плату Pico, Nano (ESP и т. д.), затем скопируйте два файла: main.py, pcf8574mod.py и всю папку sensor_pack.
+Затем откройте файл main.py в вашей среде IDE и запустите его.
 
-# Pictures
+# Картинки
 
-## IDE
-![alt text]()
-## Breadboard
-![alt text]()
+## Среда разработки
+![alt text](https://github.com/octaprog7/pcf8574/blob/master/ide8574.png)
+## Макетная плата
+![alt text](https://github.com/octaprog7/pcf8574/blob/master/bb8574.jpg)
+## Схема подключения
+![alt text](https://github.com/octaprog7/pcf8574/blob/master/conn8574.png)
+## Видео
+![alt text](https://youtu.be/uTvKOjCbi6w)
