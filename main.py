@@ -23,8 +23,16 @@ if __name__ == '__main__':
     adapter = I2cAdapter(i2c)
     io_expander = pcf8574mod.PCF8574(adapter=adapter, address=0x20)
 
-    io_expander.write(0xFF)
+    values = 0xF0, 0xF1, 0xF3, 0xF7, 0xFF
+    index = 0
+    while True:
+        io_expander.write(values[index])
+        time.sleep_ms(250)
+        index += 1
+        if index == len(values):
+            index = 0
+        print(index, hex(values[index]))
 
-    for value in io_expander:
-        print(f"Read value: 0x{value:x}\t0b{value:8b}")
-        time.sleep_ms(50)
+    # for value in io_expander:
+    #    print(f"Read value: 0x{value:x}\t0b{value:8b}")
+    #    time.sleep_ms(50)
