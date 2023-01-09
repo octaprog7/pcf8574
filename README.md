@@ -23,5 +23,7 @@
 ![alt text](https://github.com/octaprog7/pcf8574/blob/master/conn8574.png)
 ## Обработка прерывания
 ![alt text](https://github.com/octaprog7/pcf8574/blob/master/pcf8574_irq.png)
+## Подключение для обработки прерываний от PCF8574
+![alt text](https://github.com/octaprog7/pcf8574/blob/master/conn_irq.png)
 ## Видео
 Cсылка: https://youtu.be/61_FNGSfh-4
