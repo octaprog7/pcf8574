@@ -27,3 +27,6 @@
 ![alt text](https://github.com/octaprog7/pcf8574/blob/master/conn_irq.png)
 ## Видео
 Cсылка: https://youtu.be/61_FNGSfh-4
+
+## Внимание
+Проект переехал по ссылке: ![alt text](https://github.com/octaprog7/libIOExpander)
